@@ -222,6 +222,7 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   overflow: hidden;
+  min-width: 0;
 }
 
 .content__card-link {
