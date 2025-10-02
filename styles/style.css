@@ -178,7 +178,7 @@ ol {
 }
 
 .content__details {
-  width: 100%;
+  width: 399px;
   height: 100%;
 }
 
@@ -225,6 +225,16 @@ ol {
   min-width: 0;
 }
 
+.content__video-card-title {
+  font-family: Oswald, "Arial Narrow", "Fira Sans Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .content__video-card-description {
   line-height: 16.2px;
   display: -webkit-box;
@@ -254,22 +264,6 @@ ol {
 
 .content__card-link_current {
   background-color: #545050;
-}
-
-.content__video-card-title {
-  font-family: Oswald, "Arial Narrow", "Fira Sans Condensed", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-.content__video-card-description {
-  line-height: 16.2px;
-  line-clamp: 1;
 }
 
 .button {
